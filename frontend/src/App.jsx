@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://mern-student-management-zig7.onrender.com";
 
   const [students, setStudents] = useState([]);
   const [name, setName] = useState("");
